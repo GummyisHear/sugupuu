@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- jada -->
+<inimene synd="1958">
+	<nimi>Nina</nimi>
+	<lapsed>
+		<inimene synd="1977">
+			<nimi>Svetlana</nimi>
+			<lapsed>
+				<inimene synd="2004">
+					<nimi>Artjom</nimi>
+				</inimene>
+				<inimene synd="2007">
+					<nimi>Kristjan</nimi>
+				</inimene>
+			</lapsed>
+		</inimene>
+	</lapsed>
+</inimene>

@@ -1,0 +1,15 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<main>
+    <div class="text-center">
+        <h1 class="display-4">XML katsetamine: Oma sugupuu</h1>
+    </div>
+    <div class="row">
+        @* Render the HTML string from the PageModel without encoding it *@
+        @Html.Raw(Model.TransformedXml)
+    </div>
+</main>
