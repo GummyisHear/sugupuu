@@ -21,8 +21,8 @@ public class IndexModel : PageModel
     {
         try
         {
-            var xmlPath = Path.Combine(_hostingEnvironment.ContentRootPath, "wwwroot", "Elizaveta.xml");
-            var xsltPath = Path.Combine(_hostingEnvironment.ContentRootPath, "wwwroot", "PuuParing.xslt");
+            var xmlPath = Path.Combine(_hostingEnvironment.ContentRootPath, "wwwroot", "reis.xml");
+            var xsltPath = Path.Combine(_hostingEnvironment.ContentRootPath, "wwwroot", "ReisParing.xslt");
 
             if (!System.IO.File.Exists(xmlPath) || !System.IO.File.Exists(xsltPath))
             {
